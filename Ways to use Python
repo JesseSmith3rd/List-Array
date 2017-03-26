@@ -1,0 +1,25 @@
+guests = ['Jacob', 'Bruce', 'Catwoman', 'Batman']
+
+# print  guest
+print('first guest on the list is ' + guests[0])
+print('second guest on the list is ' + guests[1])
+print('third guest on the list is ' + guests[2])
+print('fourth guest on the list is  ' + guests[3])
+# The out put will be Jacob, Bruce, Catwoman, and Batman
+
+# on this line we are going to change the value of the first guest to Bob
+guests [0] = 'Bob'
+# When you print print('first guest on the list is ' + guests[0]) the output will now be Bob.
+
+# On this line we will use append(which means to add)
+guests = ['Jacob', 'Bruce', 'Catwoman', 'Batman']
+guests.append('Steve')
+print(guests[-1])
+# This will print the list in reverse and the output will be Steve.
+
+# This section will remove the value from a list. 
+guest.remove('Batman')
+print(guest[-1])
+# The out put will be Catwoman and not Batman. Cool right!
+
+
